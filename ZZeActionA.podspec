@@ -8,7 +8,7 @@ spec.ios.deployment_target = '8.0'
 
 spec.license               = 'MIT'
 
-spec.homepage              = 'https://github.com/ZZeActionA'
+spec.homepage              = 'https://github.com/zhangIvey'
 
 spec.author                = { "zly" => "zhangzeStrong@126.com" }
 
@@ -18,7 +18,7 @@ spec.source                = { :git => 'https://github.com/zhangIvey/ZZeActionA.
 
 spec.source_files          = "ZZeActionA/**/{*.h,*.m}"
 
-spec.resources             = "ZZeActionA/source.bundle"
+# spec.resources             = "ZZeActionA/source.bundle"
 
 spec.frameworks            = 'UIKit'
 
