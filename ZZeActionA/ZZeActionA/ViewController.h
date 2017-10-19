@@ -11,5 +11,10 @@
 @interface ViewController : UIViewController
 
 
+/**
+ 测试方法
+ */
+-(void)doActionA;
+
 @end
 

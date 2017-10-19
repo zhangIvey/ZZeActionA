@@ -14,6 +14,12 @@
 
 @implementation ViewController
 
+
+-(void)doActionA
+{
+    NSLog(@"tag = 0.0.1");
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
