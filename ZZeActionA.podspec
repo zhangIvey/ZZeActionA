@@ -2,7 +2,7 @@ Pod::Spec.new do |spec|
 
 spec.name                  = 'ZZeActionA'
 
-spec.version               = '0.0.1'
+spec.version               = '0.0.2'
 
 spec.ios.deployment_target = '8.0'
 
@@ -12,7 +12,7 @@ spec.homepage              = 'https://github.com/zhangIvey'
 
 spec.author                = { "zly" => "zhangzeStrong@126.com" }
 
-spec.summary               = '测试模块'
+spec.summary               = '测试模块A'
 
 spec.source                = { :git => 'https://github.com/zhangIvey/ZZeActionA.git', :tag => spec.version }
 

@@ -18,6 +18,7 @@
 -(void)doActionA
 {
     NSLog(@"tag = 0.0.1");
+    NSLog(@"tag = 0.0.2");
 }
 
 - (void)viewDidLoad {
