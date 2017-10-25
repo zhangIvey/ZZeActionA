@@ -13,6 +13,7 @@
 		75EAA3281F9891C100A8DBCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75EAA3271F9891C100A8DBCF /* Assets.xcassets */; };
 		75EAA32B1F9891C100A8DBCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75EAA3291F9891C100A8DBCF /* LaunchScreen.storyboard */; };
 		75EAA32E1F9891C100A8DBCF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EAA32D1F9891C100A8DBCF /* main.m */; };
+		75EAA3901FA05C7200A8DBCF /* A_optons.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EAA38F1FA05C6A00A8DBCF /* A_optons.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		75EAA32A1F9891C100A8DBCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75EAA32C1F9891C100A8DBCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75EAA32D1F9891C100A8DBCF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		75EAA38E1FA05C6A00A8DBCF /* A_optons.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = A_optons.h; sourceTree = "<group>"; };
+		75EAA38F1FA05C6A00A8DBCF /* A_optons.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = A_optons.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		75EAA31D1F9891C100A8DBCF /* ZZeActionA */ = {
 			isa = PBXGroup;
 			children = (
+				75EAA38D1FA05C4100A8DBCF /* classes */,
 				75EAA31E1F9891C100A8DBCF /* AppDelegate.h */,
 				75EAA31F1F9891C100A8DBCF /* AppDelegate.m */,
 				75EAA3211F9891C100A8DBCF /* ViewController.h */,
@@ -69,6 +73,15 @@
 				75EAA32D1F9891C100A8DBCF /* main.m */,
 			);
 			path = ZZeActionA;
+			sourceTree = "<group>";
+		};
+		75EAA38D1FA05C4100A8DBCF /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				75EAA38E1FA05C6A00A8DBCF /* A_optons.h */,
+				75EAA38F1FA05C6A00A8DBCF /* A_optons.m */,
+			);
+			path = classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75EAA3901FA05C7200A8DBCF /* A_optons.m in Sources */,
 				75EAA3231F9891C100A8DBCF /* ViewController.m in Sources */,
 				75EAA32E1F9891C100A8DBCF /* main.m in Sources */,
 				75EAA3201F9891C100A8DBCF /* AppDelegate.m in Sources */,
